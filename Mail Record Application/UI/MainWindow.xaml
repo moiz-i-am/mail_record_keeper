@@ -1,0 +1,15 @@
+﻿<Controls:MetroWindow x:Class="Mail_Record_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Background="{DynamicResource WindowBackgroundBrush}"
+        TitleCaps="False"
+        Title="MainWindow" Height="250" Width="617.91" ResizeMode="CanMinimize">
+    <Grid>
+        <Label Content="Mail Storer Application" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="168,26,167,0" VerticalAlignment="Top" Height="55" FontFamily="Corbel Light" FontSize="22" IsEnabled="False"/>
+        <DockPanel HorizontalAlignment="Left" Height="67" LastChildFill="False" Margin="168,86,0,0" VerticalAlignment="Top" Width="277">
+            <Button x:Name="btnAdminDashboard" Content="Main Dashboard" Height="67" VerticalAlignment="Top" Width="277" BorderThickness="0" Background="{x:Null}" Click="btnAdminDashboard_Click"/>
+        </DockPanel>
+        <Button x:Name="btnRegister" Content="Exit" Height="26" VerticalAlignment="Top" BorderThickness="0" Background="{x:Null}" Margin="217,158,225,0" Click="btnRegister_Click"/>
+    </Grid>
+</Controls:MetroWindow>

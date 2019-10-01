@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MailRecorderDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="ADMIN_UNAME" />
+    </Key>
+    <Property Name="ADMIN_UNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ADMIN_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ADMIN_PASSWORD" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MAIL">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="DIARY_NO" Type="String" MaxLength="Max" Nullable="false" Unicode="false" FixedLength="false" />
+    <Property Name="SUBJECT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DATE_SENT" Type="DateTime" annotation:StoreGeneratedPattern="None" Nullable="false" Precision="0" />
+    <Property Name="DATE_TODAY" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="INITIATOR" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RECEIVED_FROM" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SENT_TO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CC" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="REMARKS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MRDIARY_NO" Type="String" MaxLength="Max" Nullable="false" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="MailRecorderDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
+    <EntitySet Name="MAILs" EntityType="Self.MAIL" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GemBox.Spreadsheet</id>
+    <version>45.0.0.1010</version>
+    <title>GemBox.Spreadsheet for .NET Framework and .NET Standard</title>
+    <authors>GemBox</authors>
+    <owners>GemBox</owners>
+    <licenseUrl>https://www.nuget.org/packages/GemBox.Spreadsheet/45.0.0.1010/license</licenseUrl>
+    <projectUrl>https://www.gemboxsoftware.com/spreadsheet</projectUrl>
+    <iconUrl>https://www.gemboxsoftware.com/images/NugetGbs.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>GemBox.Spreadsheet is a .NET component that enables developers to read, write, convert and print spreadsheet files (XLSX, XLS, ODS, CSV, HTML, PDF or XPS) from their .NET applications using one simple API.</description>
+    <summary>GemBox.Spreadsheet is a .NET component for reading and writing spreadsheet files (XLSX, XLS, CSV, ODS, HTML, PDF and XPS).</summary>
+    <releaseNotes>- Added support for adding and removing multiple rows at once in Table.Rows.
+- Added support for automatic formula update in CellRange.CopyTo method.
+- Added support for chart labels to include category and series names in PDF writer. 
+- Fixed issue with reading pivot field layout.
+- Fixed various issues with ODS reader.</releaseNotes>
+    <copyright>Copyright © GemBox d.o.o.</copyright>
+    <tags>GemBox.Spreadsheet Excel XLSX XLS ODS PDF XPS HTML CSV Print OpenXml OOXML Spreadsheet Workbook Worksheet</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework="Unsupported0.0" />
+    </dependencies>
+  </metadata>
+</package>

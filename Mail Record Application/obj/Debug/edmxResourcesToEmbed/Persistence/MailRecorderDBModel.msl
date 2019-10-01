@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MailRecorderDBModelStoreContainer" CdmEntityContainer="MailRecorderDBEntities">
+    <EntitySetMapping Name="ADMINs">
+      <EntityTypeMapping TypeName="MailRecorderDBModel.ADMIN">
+        <MappingFragment StoreEntitySet="ADMIN">
+          <ScalarProperty Name="ADMIN_UNAME" ColumnName="ADMIN_UNAME" />
+          <ScalarProperty Name="ADMIN_NAME" ColumnName="ADMIN_NAME" />
+          <ScalarProperty Name="ADMIN_PASSWORD" ColumnName="ADMIN_PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MAILs">
+      <EntityTypeMapping TypeName="MailRecorderDBModel.MAIL">
+        <MappingFragment StoreEntitySet="MAIL">
+          <ScalarProperty Name="MRDIARY_NO" ColumnName="MRDIARY_NO" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DIARY_NO" ColumnName="DIARY_NO" />
+          <ScalarProperty Name="SUBJECT" ColumnName="SUBJECT" />
+          <ScalarProperty Name="DATE_SENT" ColumnName="DATE_SENT" />
+          <ScalarProperty Name="DATE_TODAY" ColumnName="DATE_TODAY" />
+          <ScalarProperty Name="INITIATOR" ColumnName="INITIATOR" />
+          <ScalarProperty Name="RECEIVED_FROM" ColumnName="RECEIVED_FROM" />
+          <ScalarProperty Name="SENT_TO" ColumnName="SENT_TO" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GemBox.Spreadsheet.WinFormsUtilities</id>
+    <version>45.0.0.1010</version>
+    <title>GemBox.Spreadsheet.WinFormsUtilities for .NET Framework</title>
+    <authors>GemBox</authors>
+    <owners>GemBox</owners>
+    <licenseUrl>https://www.nuget.org/packages/GemBox.Spreadsheet.WinFormsUtilities/45.0.0.1010/license</licenseUrl>
+    <projectUrl>https://www.gemboxsoftware.com/spreadsheet</projectUrl>
+    <iconUrl>https://www.gemboxsoftware.com/images/NugetGbs.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>GemBox.Spreadsheet.WinFormsUtilities is a utility component for GemBox.Spreadsheet that enables developers to import/export DataGridView control to/from Excel file.</description>
+    <summary>GemBox.Spreadsheet.WinFormsUtilities is a utility component for importing/exporting DataGridView to/from Excel file.</summary>
+    <releaseNotes>- Added support for adding and removing multiple rows at once in Table.Rows.
+- Added support for automatic formula update in CellRange.CopyTo method.
+- Added support for chart labels to include category and series names in PDF writer. 
+- Fixed issue with reading pivot field layout.
+- Fixed various issues with ODS reader.</releaseNotes>
+    <copyright>Copyright © GemBox d.o.o.</copyright>
+    <tags>GemBox.Spreadsheet Excel DataGridView</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="GemBox.Spreadsheet" version="45.0.0.1010" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework3.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

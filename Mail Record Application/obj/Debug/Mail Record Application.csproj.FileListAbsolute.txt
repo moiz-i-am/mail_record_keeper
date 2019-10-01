@@ -1,0 +1,47 @@
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\Mail Record Application.csprojResolveAssemblyReference.cache
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\App.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\Mail_Record_Application.Properties.Resources.resources
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\Mail Record Application.csproj.GenerateResource.Cache
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MainWindow.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MainWindow.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\ControlzEx.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EntityFramework.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EntityFramework.SqlServer.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.IconPacks.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\Notifications.Wpf.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\System.Windows.Interactivity.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\ControlzEx.pdb
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EntityFramework.xml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EntityFramework.SqlServer.xml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.pdb
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.xml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.IconPacks.pdb
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\MahApps.Metro.IconPacks.xml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\App.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminDashBoardLogin.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminDashBoardLogin.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminRegister.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminRegister.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminMainDashBoard.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MailManagement.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\AdminMainDashBoard.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MailManagement.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MailsDataGridView.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\MailsDataGridView.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\UpdateExistingData.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\UpdateExistingData.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\Mail Record Application.csproj.ResolveComReference.cache
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EM Mail Directorate.exe.config
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EM Mail Directorate.exe
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\EM Mail Directorate.pdb
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\EM Mail Directorate_MarkupCompile.cache
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\EM Mail Directorate.g.resources
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\EM Mail Directorate.exe
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\EM Mail Directorate.pdb
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\BackUpDataGrid.baml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\obj\Debug\UI\BackUpDataGrid.g.cs
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\GemBox.Spreadsheet.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.dll
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\GemBox.Spreadsheet.xml
+E:\STUDY\MailStorerApplication ver 1.0\Mail Record Application\Mail Record Application\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.xml

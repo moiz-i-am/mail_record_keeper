@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MailRecorderDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ADMIN">
+          <Key>
+            <PropertyRef Name="ADMIN_UNAME" />
+          </Key>
+          <Property Name="ADMIN_UNAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ADMIN_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ADMIN_PASSWORD" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MAIL">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="DIARY_NO" Type="varchar(max)" Nullable="false" />
+          <Property Name="SUBJECT" Type="varchar(max)" Nullable="false" />
+          <Property Name="DATE_SENT" Type="date" Nullable="false" />
+          <Property Name="DATE_TODAY" Type="date" Nullable="false" />
+          <Property Name="INITIATOR" Type="varchar(max)" Nullable="false" />
+          <Property Name="RECEIVED_FROM" Type="varchar(max)" Nullable="false" />
+          <Property Name="SENT_TO" Type="varchar(max)" Nullable="false" />
+          <Property Name="CC" Type="varchar(max)" Nullable="false" />
+          <Property Name="REMARKS" Type="varchar(max)" Nullable="false" />
+          <Property Name="MRDIARY_NO" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="MailRecorderDBModelStoreContainer">
+          <EntitySet Name="ADMIN" EntityType="Self.ADMIN" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MAIL" EntityType="Self.MAIL" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MailRecorderDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ADMIN">
+          <Key>
+            <PropertyRef Name="ADMIN_UNAME" />
+          </Key>
+          <Property Name="ADMIN_UNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ADMIN_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ADMIN_PASSWORD" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MAIL">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="DIARY_NO" Type="String" MaxLength="Max" Nullable="false" Unicode="false" FixedLength="false" />
+          <Property Name="SUBJECT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DATE_SENT" Type="DateTime" annotation:StoreGeneratedPattern="None" Nullable="false" Precision="0" />
+          <Property Name="DATE_TODAY" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="INITIATOR" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RECEIVED_FROM" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SENT_TO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CC" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="REMARKS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MRDIARY_NO" Type="String" MaxLength="Max" Nullable="false" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="MailRecorderDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
+          <EntitySet Name="MAILs" EntityType="Self.MAIL" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MailRecorderDBModelStoreContainer" CdmEntityContainer="MailRecorderDBEntities">
+          <EntitySetMapping Name="ADMINs">
+            <EntityTypeMapping TypeName="MailRecorderDBModel.ADMIN">
+              <MappingFragment StoreEntitySet="ADMIN">
+                <ScalarProperty Name="ADMIN_UNAME" ColumnName="ADMIN_UNAME" />
+                <ScalarProperty Name="ADMIN_NAME" ColumnName="ADMIN_NAME" />
+                <ScalarProperty Name="ADMIN_PASSWORD" ColumnName="ADMIN_PASSWORD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MAILs">
+            <EntityTypeMapping TypeName="MailRecorderDBModel.MAIL">
+              <MappingFragment StoreEntitySet="MAIL">
+                <ScalarProperty Name="MRDIARY_NO" ColumnName="MRDIARY_NO" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="DIARY_NO" ColumnName="DIARY_NO" />
+                <ScalarProperty Name="SUBJECT" ColumnName="SUBJECT" />
+                <ScalarProperty Name="DATE_SENT" ColumnName="DATE_SENT" />
+                <ScalarProperty Name="DATE_TODAY" ColumnName="DATE_TODAY" />
+                <ScalarProperty Name="INITIATOR" ColumnName="INITIATOR" />
+                <ScalarProperty Name="RECEIVED_FROM" ColumnName="RECEIVED_FROM" />
+                <ScalarProperty Name="SENT_TO" ColumnName="SENT_TO" />
+                <ScalarProperty Name="CC" ColumnName="CC" />
+                <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
